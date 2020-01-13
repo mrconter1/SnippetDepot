@@ -31,19 +31,13 @@ This extension works together with the online snippet [repository](https://snipp
 
 ## Getting Started
 
-**Windows**
+**Installation for Windows and Linux
 
-1. [Download](https://github.com/mrconter1/SnippetDepot/archive/master.zip) the plugin as a zip.
-2. Navigate to `C:\Users\your-username\.vscode\extensions\` in the file explorer
-2. Create a folder named `snippets` and extract the **contents** of `SnippetDepot-master` found in the zip file into the folder.
-3. Open VS Code and enable the functionality by pressing Ctrl+Shift+P and searching for 'Enable Snippets'
-
-**Linux**
-
-1. Navigate to `/home/your-username/.vscode/extensions/` in the terminal
-2. Create a folder and enter the folder with: `mkdir snippets && cd snippets`
-3. Download snippet code by executing: `git init && git pull https://github.com/mrconter1/SnippetDepot/`
-4. Open VS Code and enable the functionality by pressing Ctrl+Shift+P and searching for 'Enable Snippets'
+1. Download the [.vsix](https://github.com/mrconter1/SnippetDepot/raw/master/snippets-0.0.1.vsix) plugin file.
+2. Open Visual Studio Code and select View->Extensions from the menu to display the Extensions panel.
+3. Click the `...` at the top-right corner of the Extensions panel and select "Install from VSIX..." on the menu that appears.
+4. Locate the .vsix file you downloaded and click "Open".
+5. Enable the Snippet functionality by pressing Ctrl+Shift+P and searching for 'Enable Snippets'.
 
 **Note that the snippet functionality is currently only supporting Python files.*
 
