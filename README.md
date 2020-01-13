@@ -31,7 +31,7 @@ This extension works together with the online snippet [repository](https://snipp
 
 ## Getting Started
 
-**Installation for Windows and Linux
+**Installation for Windows and Linux**
 
 1. Download the [.vsix](https://github.com/mrconter1/SnippetDepot/raw/master/snippets-0.0.1.vsix) plugin file.
 2. Open Visual Studio Code and select View->Extensions from the menu to display the Extensions panel.
