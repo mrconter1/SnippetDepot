@@ -1,8 +1,13 @@
 {
 	"name": "snippets",
+	"publisher": "SnippetDepot",
 	"displayName": "Snippets",
 	"description": "Complete your code with snippets from a community driven online repository..",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrconter1/SnippetDepot"
+	},
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -27,6 +32,9 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile",
 		"test": "node ./out/test/runTest.js"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.0"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",

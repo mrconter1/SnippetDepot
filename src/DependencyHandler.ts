@@ -121,8 +121,12 @@ export class DependencyHandler {
 	getFileFolder(): string {
 
 		let folderPath = vscode.window.activeTextEditor.document.uri.fsPath;
-		let folderSplit= folderPath.split("/");
-		folderPath = folderSplit.slice(0, folderSplit.length - 1).join("/") + "/";
+		let delimiter = "/";
+		if (folderPath.includes("\\")) {
+			delimiter = "\\";
+		}
+		let folderSplit= folderPath.split(delimiter);
+		folderPath = folderSplit.slice(0, folderSplit.length - 1).join(delimiter) + delimiter;
 
 		return folderPath;
 	}
