@@ -28,7 +28,7 @@ This git contains code for a proof of concept extension to VS Code that enables 
 
 A lot of time during development goes into searching after small pieces of code. This can be a search after things as easy as removing the last character from a string to removing each file in a folder that has a filename starting on the letter 'a'. The usual practice of finding a solution to a problem consists of searching on Google, finding a suitable solution from StackOverflow and making it work with the code. The problem with this approach is that this procedure has to be done all over again each time a new developer encounters the problem. One of the primary goals of this project is to remove this repetition. If the community could work together in a fashion similar to StackOverflow and Wikipedia it would be possible to create reliable instant search and retrieve functionalities for different IDEs. 
 
-This extension works together with the online snippet [repository](https://snippetdepot.com/repo/) and has two key functionalities. One is the search feature which gives suggestions of snippets which it predicts is needed and the second functionality fetches a chosen snippet. The fetched code is then put in a separate dependency file.
+This extension works together with the online snippet [repository](https://snippetdepot.com/repo/) and has two key functionalities. One is the search feature which gives suggestions of snippets which it predicts is needed and the second functionality fetches a chosen snippet. The fetched code is then put in a separate dependency file. The idea is in theory applicable to different types of programming languages and IDEs which means that there is a lot of potential for growth.
 
 ## Getting Started
 
