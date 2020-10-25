@@ -1,7 +1,7 @@
 # [SnippetDepot](https://snippetdepot.com/)
 ### Real-time retrieving of snippets from our online repository
 
-This git contains code for a proof of concept extension to VS Code that enables real-time retrieving of code snippets from an community-driven online repository. It also acts as for portal for the online snippet repository project. The project combines the principles of Google Instant Search, StackOverflow and Wikipedia into one service. The online repository can be found [here](https://snippetdepot.com/repo/). Please check out our [Wiki](https://github.com/mrconter1/SnippetDepot/wiki) were you can find information on how to add snippets and other information about this project.
+This git contains code for a proof of concept extension to VS Code that enables real-time retrieving of code snippets from a community-driven online repository. It also acts as for portal for the online snippet repository project. The project combines the principles of Google Instant Search, StackOverflow and Wikipedia into one service. The online repository can be found [here](https://snippetdepot.com/repo/). Please check out our [Wiki](https://github.com/mrconter1/SnippetDepot/wiki) were you can find information on how to add snippets and other information about this project.
 
 ![Demo](example.gif)
 *Typical use-case of SnippetDepot where a function is suggested in real-time and fetched into the project.*
